@@ -1,0 +1,95 @@
+{
+ "magic": "3e85f3ae",
+ "languages": [
+  "03f97b57",
+  "0f8857aa",
+  "31806842",
+  "4a2ca9c9",
+  "5942ccf7",
+  "6ef58def",
+  "6f4515cb",
+  "90b6af29",
+  "9eba952a",
+  "ba39c3ec",
+  "bbd7b5d1",
+  "c5bb18ed",
+  "e2fb1acd",
+  "e5c65a36",
+  "fea0f61f"
+ ],
+ "strings": {
+  "315090405": [
+   "Opacity of the Destiny panel."
+  ],
+  "568001502": [
+   "25% Larger"
+  ],
+  "864555611": [
+   "Hide Game Panel"
+  ],
+  "1172203456": [
+   "Size of the Destiny panel. Default matches the game's own HUD; the larger sizes scale the panel and the squad rows with it."
+  ],
+  "1207430374": [
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny",
+   "Destiny"
+  ],
+  "1216926344": [
+   "Position X"
+  ],
+  "1247074477": [
+   "Size"
+  ],
+  "1787553513": [
+   "How far the Destiny panel sits from the bottom edge of the screen, in percent of the screen height."
+  ],
+  "2673149021": [
+   "Distance From Bottom"
+  ],
+  "2772072405": [
+   "How far the Destiny panel sits from the left edge of the screen, in percent of the screen width."
+  ],
+  "2884137708": [
+   "Default"
+  ],
+  "3108446435": [
+   "Opacity"
+  ],
+  "3441939234": [
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD",
+   "Destiny HUD"
+  ],
+  "3508500295": [
+   "Hides the game's own health, weapon and gear panel at the bottom left while the Destiny panel shows. The squad list and the stratagem list stay as they are."
+  ],
+  "3817199841": [
+   "50% Larger"
+  ]
+ }
+}

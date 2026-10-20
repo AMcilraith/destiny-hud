@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "Guid": "b7c1f2a4-5d63-4e18-9a02-3f6c8d41e5b9",
+  "Name": "HD2 HUD+",
+  "Description": "Ammo, reload, charge, backpack, health and stratagems - read them without looking away from your target.",
+  "Options": [
+    {
+      "Name": "Core",
+      "Description": "Required for the HUD to work. Keep this enabled and use the options below to choose what is displayed.",
+      "Include": [
+        "COMMON"
+      ]
+    },
+    {
+      "Name": "HUD layout",
+      "Description": "Enabled by default. Choose one: Integrated / Rings / Simple.",
+      "SubOptions": [
+        {
+          "Name": "Integrated",
+          "Description": "Under the crosshair: a charge, reload, heat or rounds arc, ammo, reserve ammo, health/stamina bars, stims, throwables, backpack. Best with game HUD on Map only.",
+          "Include": [
+            "HUD_INTEGRATED"
+          ],
+          "Image": "Preset/hud.integrated.png"
+        },
+        {
+          "Name": "Rings",
+          "Description": "A ring by the crosshair shows charge, reload, heat or rounds; another shows a backpack's own resource. Plus ammo, reserve ammo and weapon setting icons.",
+          "Include": [
+            "HUD_RING"
+          ],
+          "Image": "Preset/hud.ring.png"
+        },
+        {
+          "Name": "Simple",
+          "Description": "Weapon setting icons only - fire mode, function, scope zoom - beside the game's weapon panel. Fixed brightness, and they hide when that panel hides.",
+          "Include": [
+            "HUD_SIMPLE"
+          ],
+          "Image": "Preset/hud.simple.png"
+        }
+      ]
+    },
+    {
+      "Name": "Show when idle",
+      "Description": "Enabled by default. Choose one: Faint / Full brightness.",
+      "SubOptions": [
+        {
+          "Name": "Faint",
+          "Description": "Dims the crosshair HUD to 30% brightness when idle. Does not affect Simple or squad icons.",
+          "Include": [
+            "IDLE_FADE"
+          ]
+        },
+        {
+          "Name": "Full brightness",
+          "Description": "Keeps the crosshair HUD at full brightness when idle. Does not affect Simple or squad icons.",
+          "Include": [
+            "IDLE_FIX"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Squad",
+      "Description": "Each squad row shows that player's booster, yours last - a skull when dead or what they pinged. Stratagems they call stack along the row. All hide with it.",
+      "Include": [
+        "SQUAD_ALL"
+      ]
+    },
+    {
+      "Name": "Game crosshair",
+      "Description": "Draws the game's dot and ring for weapons with no third-person crosshair. Hidden in first person. Ignores the game HUD setting for now; that link comes later.",
+      "Include": [
+        "RETICLE_ON"
+      ]
+    },
+    {
+      "Name": "Stratagems",
+      "Description": "The stratagems you chose, on a row at the bottom center: each drains on the way in, fills back as it cools, flat when you have no uses left.",
+      "Include": [
+        "STRATAGEM_ON"
+      ]
+    }
+  ],
+  "IconPath": "icon.png"
+}

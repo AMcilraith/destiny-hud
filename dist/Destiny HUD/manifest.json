@@ -1,0 +1,7 @@
+{
+  "Version": 1,
+  "Guid": "6f4c2a91-8e17-4b5d-a3c6-1d9e7b04f2a8",
+  "Name": "Destiny HUD",
+  "Description": "A Destiny-style panel for health, stamina, stratagems, weapons, stims, grenades and the squad. Drawn with the game's own icons and set in the game's Options menu.",
+  "IconPath": "icon.png"
+}
